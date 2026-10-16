@@ -1,0 +1,32 @@
+---
+title: "Viñeta del paquete de prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteprueba)
+```
+
+Esta es una viñeta de prueba. Podemos mostrar como usar la función `suma()`:
+
+```{r}
+suma(2, 2)
+```
+
+La otra función del paquete es la función `resta()`, se usa de la siguiente manera:
+
+```{r}
+resta(10, 4)
+```
+

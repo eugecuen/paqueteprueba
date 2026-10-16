@@ -16,3 +16,7 @@ Config/roxygen2/version: 8.1.0
 Depends: 
     R (>= 3.5)
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
